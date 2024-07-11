@@ -28,7 +28,7 @@
      "PM_PERMIT" :
      {
       "description":"Other user can't use your bot in pm (type yes to active or no to deactive ; don't write in capital letter)",
-      "value":"no",
+      "value":"yes",
       "required":false
     }
     ,
@@ -49,7 +49,7 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
@@ -67,7 +67,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID, the code you received after pairing code",   
-      "value":"",
+      "value":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ00wSnB4YkZLQU5sTU5Gd2Rva1l0aCsxVzFDT3h1MmZVY3ZYdW80WkFIaz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0VjaUxLK01zN2dyREQvTlE3VGxkeFZmV2pld1FYYXg3Y0xWWDNuWjZVVT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJxTG9TR3JobWZrWFpPTDRUZVRraG9pSHlZT0FDR0JTUzRwWlVRb3Fva1h3PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJKVnFQamQraFJYN080aDJYTEgwZWJKbkxWVStZejh4bFZramxZa3M0NUVFPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkdHdVpFWXV5WkFTNjV2WkhMcFJ6TTdXVTZ5cG9aT216dS9iL08yQnIzbWc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InpPMVV2YUt0YnpOWlZaUFg1UzArSTRhOE9ucWNiUUdLbmdQM21YWUlzV2s9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiS1BSYnBnSmVnN1B6Zjh4ZzQyYTR6bFpsVmxXTXh6MTc1R1RyNi9LdHowMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiSms1a3hPWGpaVkdwNCtLdVl1UStqUXVxU1UzaEEydGRidi9wMXZFMUkyZz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlRxQW84QVNSQ3c4dENBZzNPNENvTjZTQ2VnQmtUL1BkWU5MYWpkVmFiTTBlejl5bEorRGZEMDZ0c3Z3RG1mQlhIQ3Fzdm51eE1FajlsRkhwZVN5ZkRRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjA0LCJhZHZTZWNyZXRLZXkiOiJSV0tNNkNDNHF1MGpsTTNpRmkvZGY3TThOano0L2NFTkxpTXVHbWpEYi9JPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJIUFVVbUp3dVNfcVk4RzkwdlFQNXFnIiwicGhvbmVJZCI6IjBjOWU3YzcxLTMwYzYtNDMwYi1iMDM0LTRmY2ZmZmJkY2Q5YSIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJ5amFCbTUwc1dMSjVKWGtmR2lMcDhXLzNNbWc9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicHFMZTJwMDB5Vzg0VzhIV1ljV0M2eXhqRE5JPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IldRTjNURUxTIiwibWUiOnsiaWQiOiIyNTQ3MjM5MjU2MTI6MTNAcy53aGF0c2FwcC5uZXQifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0t2YWdaa0hFS200djdRR0dBUWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IkIxQWRxZkNrSlBnWm9OS0pid2lubzM2ZnUwVWdsSmIzV2VLSHZSbEZmeEk9IiwiYWNjb3VudFNpZ25hdHVyZSI6ImplRWFCT3ZvMnlMYlJwdHZkcEowTG5BTFRHNWZHOFIzTm9ERzVvdmxKQWR4NzllN0EvaVlJK0RQY0lESWpQT21aenQ0UXkzd3hLU1J6TFlUVDJLTEJnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJ6ZXZ1VGJVR2MzODVaY1pNVE1GeHZ3NlplMXBrU1BvZVhpeTRzMFZiVENnN0k0aFlSQm41cnFvYTVmZzVDQ0lIangwVHhVRVpqckJpWGFqejBpdEJBdz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI1NDcyMzkyNTYxMjoxM0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJRZFFIYW53cENUNEdhRFNpVzhJcDZOK243dEZJSlNXOTFuaWg3MFpSWDhTIn19XSwicGxhdGZvcm0iOiJhbmRyb2lkIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzIwNzA0MDU0fQ==",
       "required":true
       
     },
@@ -76,14 +76,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "Beltah Tech 254🇰🇪"
+    "value": "Sikolia"
   },
     "OWNER_NUMBER":
   {
     
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254114141192"
+    "value": "254723925612"
   },
     "WARN_COUNT":
   {
@@ -99,12 +99,12 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 for always online.2 to indicate that you are currently typing a message.3 to indicate that you are currently recording an audio.leave the field blank to indicate your real state.",
-    "value":"",  
+    "value":"1",  
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
     "description": "if you want to enable anti delete message put yes else put no",
-    "value": "no",
+    "value": "true",
     "required": false
   },
   "PM_CHATBOT": {
