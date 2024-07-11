@@ -60,7 +60,7 @@
     },
   "HEROKU_APP_NAME": {
     "description": "insert your heroku APP NAME (the name you wrote at the beginning)",
-     "value":"",
+     "value":"s1lks1k0",
 	"required" :true
     }  
 	  ,
